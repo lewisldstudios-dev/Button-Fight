@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level select</title>
+    <link rel="stylesheet" href="levelSelecStyle.css">
+</head>
+<body>
+    <div class="levelContainer">
+        <h1 class="h1">Select a Level</h1>
+        <a href="level1.html">
+        <button id="button">Level 1</button>
+        </a>
+        <a href="level2.html">
+        <button>Level 2</button>
+        </a>
+        <a href="level3.html">
+        <button id="button">Level 3</button><br><br>
+        </a>
+        <a href="level4.html">
+        <button id="button">Level 4</button>
+        </a>
+        <a href="level5.html">
+        <button id="button">Level 5</button>
+        </a>
+        <a href="level6.html">
+        <button id="button">Level 6</button><br><br>
+        </a>
+        <a href="level7.html">
+        <button id="button">Level 7</button>
+        </a>
+        <a href="level8.html">
+        <button id="button">Level 8</button>
+        </a>
+        <a href="level9.html">
+        <button id="button">Level 9</button><br><br>
+        </a>
+        <a href="index.html">
+        <button id="button">Back</button>
+        </a>
+        <a href="shop.html">
+        <button id="button">Shop</button>
+        </a>
+    </div>
+    <script src="gameLogic.js"></script>
+    <script>
+        let button = document.getElementById('button');
+
+        button.onclick = function showMessage() {
+            window.alert('Tip: Use the heal function! If you already used it, buy it in the Shop!')
+        }
+    </script>
+</body>
+</html>
